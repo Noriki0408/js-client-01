@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+    background-image: url("umaru.png");
+}
+h1 {
+    color: rgb(214, 28, 99);
+}
+input {
+    font-size: 3em;
+}

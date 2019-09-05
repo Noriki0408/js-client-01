@@ -1,16 +1,5 @@
-const tarea = document.getElementById('tarea');
-const input1 = document.getElementById('input1');
-const input2 = document.getElementById('input2');
-const btn = document.getElementById('btn');
-const result = document.getElementById('result');
-
-btn.addEventListener('click',()=>{
-  let findtxt = input1.value;
-  let reptxt = input2.value;
-  let tagtxt = tarea.value;
-
-  findtxt = new RegExp(findtxt, 'g');
-  tagtxt = tagtxt.replace(findtxt, reptxt);
-
-  result.innerText = tagtxt;
-});
+document.getElementById("btn-add").onclick = function() {
+  document.getElementById("box").innerHTML =
+  parseFloat(document.getElementById("num1").value) *
+  parseFloat(document.getElementById("num2").value);
+};
